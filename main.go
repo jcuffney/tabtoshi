@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"tabtoshi/chordpro"
+	chordpro "github.com/jcuffney/tabtoshi/chordpro"
 )
 
 func main() {
