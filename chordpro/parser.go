@@ -11,8 +11,8 @@ import (
 func parseLine(line string) (Line, error) {
 	var chords map[int]string = make(map[int]string)
 	// parse out any chords
-	re := regexp.MustCompile(`\[.*?\]`)
-	matches := re.FindAllString(line, -1)
+	re := regexp.MustCompile(`\[(.*?)\]`)
+	matches := re.FindAllStringSubmatch(line, -1)
 	indexes := re.FindAllStringIndex(line, -1) // returns an array of starting and endpoint index [0,3]
 	offset := 0
 	for idx, match := range matches {
@@ -20,20 +20,21 @@ func parseLine(line string) (Line, error) {
 		start := chordIndexes[0]
 		end := chordIndexes[1]
 		delta := end - start
-		chords[start+offset] = match
+		chords[start+offset] = match[1]
 		offset -= delta
 	}
 	line = re.ReplaceAllString(line, "")
-	return Line{text: line, chords: chords}, nil
+	return Line{Text: line, Chords: chords}, nil
 }
 
 func parseMetadata(data string) (string, map[string]string, error) {
 	var metadata map[string]string = make(map[string]string)
-	re := regexp.MustCompile("{.*:.*}")
-	matches := re.FindAllString(data, -1)
+	re := regexp.MustCompile("{(.*):(.*)}")
+	matches := re.FindAllStringSubmatch(data, -1)
 	for _, match := range matches {
-		arr := strings.Split(match, ":")
-		metadata[arr[0]] = arr[1]
+		key := strings.TrimSpace(match[1])
+		value := strings.TrimSpace(match[2])
+		metadata[key] = value
 	}
 	// remove metadata from data string
 	data = re.ReplaceAllString(data, "")
@@ -41,9 +42,12 @@ func parseMetadata(data string) (string, map[string]string, error) {
 }
 
 func getSection(line string) string {
-	re := regexp.MustCompile(`\[\[.*\]\]`)
-	match := re.FindString(line)
-	return match
+	re := regexp.MustCompile(`\[\[(.*)\]\]`)
+	matches := re.FindStringSubmatch(line)
+	if len(matches) == 0 {
+		return ""
+	}
+	return matches[1]
 }
 
 func getChordsLine(chords map[int]string) string {

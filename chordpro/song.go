@@ -2,9 +2,9 @@ package chordpro
 
 type Line struct {
 	// the line of text representing the lyrics without annotations
-	text string
+	Text string
 	// mapping of the char index of the chord to the chord string
-	chords map[int]string
+	Chords map[int]string
 }
 
 type Section struct {

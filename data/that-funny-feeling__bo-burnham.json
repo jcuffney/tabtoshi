@@ -1,0 +1,386 @@
+{
+  "Metadata": {
+    "artist": "Bo Burnham",
+    "capo": "2",
+    "title": "That funny feeling"
+  },
+  "Sections": [
+    {
+      "Type": "Intro",
+      "Lines": [
+        {
+          "Text": "I can't really, uh, play the guitar very well, um, or sing",
+          "Chords": {}
+        },
+        {
+          "Text": "So you know, apologies",
+          "Chords": {}
+        },
+        {
+          "Text": "",
+          "Chords": {
+            "0": "D"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Verse 1",
+      "Lines": [
+        {
+          "Text": "Stunning 8K-resolution meditation app",
+          "Chords": {
+            "0": "D",
+            "23": "G"
+          }
+        },
+        {
+          "Text": "In honor of the revolution, it's half-off at the Gap",
+          "Chords": {
+            "3": "D",
+            "33": "G",
+            "49": "D"
+          }
+        },
+        {
+          "Text": "Deadpool's self-awareness, loving parents, harmless fun",
+          "Chords": {
+            "0": "Em",
+            "16": "A",
+            "34": "Bm",
+            "52": "G"
+          }
+        },
+        {
+          "Text": "The backlash to the backlash to the thing that's just begun",
+          "Chords": {
+            "20": "A",
+            "36": "Bm",
+            "4": "Em",
+            "54": "G"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Chorus",
+      "Lines": [
+        {
+          "Text": "There it is again, that funny feeling",
+          "Chords": {
+            "0": "D",
+            "15": "Em"
+          }
+        },
+        {
+          "Text": "That funny feeling",
+          "Chords": {
+            "0": "Bm",
+            "11": "G"
+          }
+        },
+        {
+          "Text": "There it is again, that funny feeling",
+          "Chords": {
+            "0": "D",
+            "15": "Em"
+          }
+        },
+        {
+          "Text": "That funny feeling",
+          "Chords": {
+            "0": "Bm",
+            "11": "G"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Verse 2",
+      "Lines": [
+        {
+          "Text": "The surgeon general's pop-up shop, Robert Iger's face",
+          "Chords": {
+            "35": "G",
+            "4": "D",
+            "49": "D"
+          }
+        },
+        {
+          "Text": "Discount Etsy agitprop, Bugles' take on race",
+          "Chords": {
+            "0": "D",
+            "24": "G",
+            "40": "D"
+          }
+        },
+        {
+          "Text": "Female Colonel Sanders, easy answers, civil war",
+          "Chords": {
+            "0": "Em",
+            "15": "A",
+            "29": "Bm",
+            "44": "G"
+          }
+        },
+        {
+          "Text": "The whole world at your fingertips, the ocean at your door",
+          "Chords": {
+            "24": "A",
+            "4": "Em",
+            "40": "Bm",
+            "54": "G"
+          }
+        },
+        {
+          "Text": "The live-action Lion King, the Pepsi Halftime Show",
+          "Chords": {
+            "0": "D",
+            "31": "G",
+            "46": "D"
+          }
+        },
+        {
+          "Text": "Twenty-thousand years of this, seven more to go",
+          "Chords": {
+            "0": "D",
+            "31": "G",
+            "45": "D"
+          }
+        },
+        {
+          "Text": "Carpool Karaoke, Steve Aoki, Logan Paul",
+          "Chords": {
+            "0": "Em",
+            "12": "A",
+            "23": "Bm",
+            "35": "G"
+          }
+        },
+        {
+          "Text": "A gift shop at the gun range, a mass shooting at the mall",
+          "Chords": {
+            "19": "A",
+            "2": "Em",
+            "37": "Bm",
+            "53": "G"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Chorus",
+      "Lines": [
+        {
+          "Text": "There it is again, that funny feeling",
+          "Chords": {
+            "0": "D",
+            "15": "Em"
+          }
+        },
+        {
+          "Text": "That funny feeling",
+          "Chords": {
+            "0": "Bm",
+            "11": "G"
+          }
+        },
+        {
+          "Text": "There it is again, that funny feeling",
+          "Chords": {
+            "0": "D",
+            "15": "Em"
+          }
+        },
+        {
+          "Text": "That funny feeling",
+          "Chords": {
+            "0": "Bm",
+            "11": "G"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Verse 3",
+      "Lines": [
+        {
+          "Text": "Reading Pornhub's terms of service, going for a drive",
+          "Chords": {
+            "0": "D",
+            "36": "G",
+            "48": "D"
+          }
+        },
+        {
+          "Text": "And obeying all the traffic laws in Grand Theft Auto V",
+          "Chords": {
+            "36": "G",
+            "4": "D",
+            "53": "D"
+          }
+        },
+        {
+          "Text": "Full agoraphobic, losing focus, cover blown",
+          "Chords": {
+            "0": "Em",
+            "10": "A",
+            "25": "Bm",
+            "38": "G"
+          }
+        },
+        {
+          "Text": "A book on getting better hand-delivered by a drone",
+          "Chords": {
+            "18": "A",
+            "2": "Em",
+            "30": "Bm",
+            "45": "G"
+          }
+        },
+        {
+          "Text": "Total disassociation, fully out your mind",
+          "Chords": {
+            "0": "D",
+            "22": "G",
+            "37": "D"
+          }
+        },
+        {
+          "Text": "Googling \"derealization\", hating what you find",
+          "Chords": {
+            "0": "D",
+            "26": "G",
+            "42": "D"
+          }
+        },
+        {
+          "Text": "That unapparent summer air in early fall",
+          "Chords": {
+            "0": "Em",
+            "23": "Bm",
+            "36": "G",
+            "5": "A"
+          }
+        },
+        {
+          "Text": "The quiet comprehending of the ending of it all",
+          "Chords": {
+            "16": "A",
+            "31": "Bm",
+            "4": "Em",
+            "44": "A"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Chorus",
+      "Lines": [
+        {
+          "Text": "There it is again, that funny feeling",
+          "Chords": {
+            "0": "D",
+            "15": "Em"
+          }
+        },
+        {
+          "Text": "That funny feeling",
+          "Chords": {
+            "0": "Bm",
+            "11": "G"
+          }
+        },
+        {
+          "Text": "There it is again, that funny feeling",
+          "Chords": {
+            "0": "D",
+            "15": "Em"
+          }
+        },
+        {
+          "Text": "That funny feeling",
+          "Chords": {
+            "0": "Bm",
+            "11": "G"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Outro",
+      "Lines": [
+        {
+          "Text": "Hey, what can you say? We were overdue",
+          "Chords": {
+            "0": "D",
+            "31": "Em"
+          }
+        },
+        {
+          "Text": "But it'll be over soon, you wait",
+          "Chords": {
+            "13": "C",
+            "28": "G"
+          }
+        },
+        {
+          "Text": "Hey, what can you say? We were overdue",
+          "Chords": {
+            "0": "D",
+            "31": "Em"
+          }
+        },
+        {
+          "Text": "But it'll be over soon, you wait Ba-da-da, ba-da-da, ba-da-da-da-dum",
+          "Chords": {
+            "13": "C",
+            "28": "G"
+          }
+        },
+        {
+          "Text": "Hey, what can you say? We were overdue",
+          "Chords": {
+            "0": "D",
+            "31": "Em"
+          }
+        },
+        {
+          "Text": "But it'll be over soon, you wait Ba-da-da, ba-da-da, ba-da-da-da-dum",
+          "Chords": {
+            "13": "C",
+            "28": "G"
+          }
+        },
+        {
+          "Text": "Hey, what can you say? We were overdue",
+          "Chords": {
+            "0": "D",
+            "31": "Em"
+          }
+        },
+        {
+          "Text": "But it'll be over soon, you wait Ba-da-da, ba-da-da, ba-da",
+          "Chords": {
+            "13": "C",
+            "28": "G"
+          }
+        },
+        {
+          "Text": "Hey, what can you say? We were overdue",
+          "Chords": {
+            "0": "D",
+            "31": "Em"
+          }
+        },
+        {
+          "Text": "But it'll be over soon, you wait Ba-da-da, ba-da-da, ba-da-da-da-dum",
+          "Chords": {
+            "13": "C",
+            "28": "G"
+          }
+        }
+      ]
+    }
+  ]
+}

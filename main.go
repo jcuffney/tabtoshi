@@ -31,4 +31,8 @@ func main() {
 	}
 
 	chordpro.Print(song)
+
+	chordpro.PrintJson(song)
+
+	chordpro.WriteJsonToFile("./data/that-funny-feeling__bo-burnham.json", song)
 }
