@@ -1,8 +1,7 @@
-# lyrics
+# TabToshi
 
-heavily based on chordPro format
+> Guitar Chords largely based on chordpro format
 
-{} = metadata
-[] = chord
-[[]] = section names
-{{-- --}} comment
+## Getting Started
+
+1. `go run main.go`

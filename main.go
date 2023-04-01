@@ -2,12 +2,19 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 
 	chordpro "github.com/jcuffney/tabtoshi/chordpro"
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
+
 	filepath := "./data/that-funny-feeling__bo-burnham.cbpro"
 	data, err := chordpro.ReadTextFile(filepath)
 	if err != nil {
