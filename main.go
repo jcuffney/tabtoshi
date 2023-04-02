@@ -30,9 +30,11 @@ func main() {
 		os.Exit(1)
 	}
 
-	chordpro.Print(song)
+	// chordpro.Print(song)
 
-	chordpro.PrintJson(song)
+	// chordpro.PrintJson(song)
 
-	chordpro.WriteJsonToFile("./data/that-funny-feeling__bo-burnham.json", song)
+	// chordpro.WriteJsonToFile("./data/that-funny-feeling__bo-burnham.json", song)
+
+	chordpro.WritePDF("./data/that-funny-feeling__bo-burnham.pdf", song)
 }
